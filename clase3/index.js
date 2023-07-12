@@ -27,11 +27,11 @@ function students(students){
     let copy = students;
     copy.sort((a,b) => b.nota - a.nota);
     let best = copy[0]
-    /*let filtrados = copy.filter((f) => f.nota == best);
+    let filtrados = copy.filter((f) => f.nota == best.nota);
     console.log(filtrados);
-    let i = students.length -1 */;
+    let i = students.length -1 ;
     let worst = students[i];
-    return [best , worst] ;
+    return [filtrados , worst] ;
 }
 
 //2
