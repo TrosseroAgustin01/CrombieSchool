@@ -189,7 +189,7 @@ type foodtype={
     conPollo?: string,
 }
 
-let foodStyle:foodtype;
+let foodStyle:foodtype
 
 function paginate(array: Record<string,unknown>[], num: number) {
     const pageSize = 10;
