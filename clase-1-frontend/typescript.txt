@@ -1,0 +1,5 @@
+npm i -g typescript
+npm init
+npm i -D ts-node
+npx ts-node index.ts
+tsc --init
